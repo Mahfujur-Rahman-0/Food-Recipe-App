@@ -13,9 +13,8 @@ function App() {
   const detailsUrl = `https://api.spoonacular.com/recipes/${foodId}/information`;
   //const apikeey = "b4ff9213d30741c58ded7e68610a0596";
   //const apikeey = "7101900a2282406b9ff4351095d2477f";
-  var apikeey = apikeey
-    ? "7101900a2282406b9ff4351095d2477f"
-    : "b4ff9213d30741c58ded7e68610a0596";
+  const apikeey = "21dd500c65464c1cba1dc43449da9d0e";
+  
   return (
     <>
       {errorr === null ? (
