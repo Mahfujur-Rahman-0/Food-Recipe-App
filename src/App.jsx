@@ -20,7 +20,7 @@ function App() {
         <>
           <p className="errorViewer redText">
             [ NOTE: Please do not over use this app.It was made for only
-            education purpose.It has a limit for 150 search per day. ]
+            education purpose.It has a limit of 150 searches per day. ]
           </p>
           <SearchBox value={value} setValue={setValue} />
           <div className="container">
