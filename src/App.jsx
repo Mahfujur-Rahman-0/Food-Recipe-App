@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   const [value, setValue] = useState("");
   const [foodList, setFoodList] = useState([]);
-  const [foodId, setFoodId] = useState("782585");
+  const [foodId, setFoodId] = useState("");
   const [errorr, setError] = useState(null);
   const url = "https://api.spoonacular.com/recipes/complexSearch";
   const detailsUrl = `https://api.spoonacular.com/recipes/${foodId}/information`;
