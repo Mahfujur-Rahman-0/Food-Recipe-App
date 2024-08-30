@@ -5,7 +5,7 @@ import { useState } from "react";
 import "./App.css";
 
 function App() {
-  const [value, setValue] = useState("");
+  const [value, setValue] = useState("782585");
   const [foodList, setFoodList] = useState([]);
   const [foodId, setFoodId] = useState("");
   const [errorr, setError] = useState(null);
